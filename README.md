@@ -55,4 +55,4 @@ cd my-app
 npm install
 
 # Start the application
-npm start
+npm run dev
