@@ -13,7 +13,7 @@ export function SortableHeader({ label, sortedBy, onClick }) {
       <span>{label}</span>
       <ArrowUpDown
         className={`w-4 h-4 transition-transform duration-200 text-gray-500 ${
-          direction === "asc" ? "rotate-180" : ""
+          direction === "asc" ? "rotate-180" : "rotate-0"
         }`}
       />
     </div>
